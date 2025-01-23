@@ -107,6 +107,9 @@ Este comando nos dara una salida parecida a `/bin/bash`, `/bin/zsh`, `/usr/local
 ```
 Edit -> Settings -> Tools
 ```
+```
+Editar -> Preferencias -> Herramientas
+```
 Y en el campo `Shell` 🐚 pegamos lo que copiamos antes.
 
 ---

@@ -1,4 +1,4 @@
-# Instalación FisComp 💖
+# Instalacion FisComp 💖
 
 > [!NOTE]  
 > Las descargas de cada programa pueden tardar un poco, tengan paciencia 😵‍💫

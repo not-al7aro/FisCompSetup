@@ -1,5 +1,8 @@
 # Instalar TODO
 
+> [!NOTE]  
+> Las descargas de cada programa pueden tardar un poco, tengan paciencia.
+
 ## Homebrew
 
 Lo primero que hace falta es el instalador de paquetes que se usa en Mac, Homebrew.
@@ -17,7 +20,14 @@ Al terminal de instalar Homebrew, se nos muestra un mensaje que nos indica como 
 => Next steps:
 - Run these commands in your terminal to add Homebrew to your PATH
 ```
-Copiamos los dos comandos que nos da y los pegamos en la terminal.
+Los comandos seran parecidos, **pero no identicos**, a estos:
+```bash
+echo >> /Users/[tu-nombre]/.[algo]profile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[tu-nombre]/.[algo]profile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+Copiamos los tres comandos que nos da y los pegamos en la terminal.
 
 Una vez instalado Homebrew, es muy sencillo instalar los paquetes que necesitamos.
 
@@ -40,7 +50,20 @@ brew install gnuplot
 brew install geany
 ```
 
+> [!WARNING]  
+> Antes de continuar busca Geany en el buscador de MAC y abrelo y cierralo, de esta forma se crearan los archivos de configuracion necesarios.
+
 En principio los programas se deberian haber añadido al PATH automaticamente.
+
+Pero por si acaso podemos ejecutar:
+
+```bash
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.bash_profile
+```
+
+```bash
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+```
 
 ## AUN NO HEMOS TERMINADO
 
@@ -63,13 +86,7 @@ Estos comandos instalan una herramienta que perimte descargar arhivos de forma r
 
 Es posible que Fortran funcione directamente sin hacer nada, sin embargo, puede que haya que configurar Geany para que sepa donde buscar el compilador.
 
-Este problema ocurre porque Geany trata de utilizar una terminal diferente a la utilizada para instalar el resto de programas, es muy posible que esto se solucione simplemente haciendo:
-
-```bash
-echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
-```
-
-**Si esto no funciona**, la alternativa mas sencilla es configurar Geany manualmente:
+**Si Fortran no funciona directamente**, la alternativa mas sencilla es configurar Geany manualmente:
 
 1. Introducimos en la terminal lo siguiente:
 ```bash
@@ -77,9 +94,9 @@ echo $SHELL
 ```
 Este comando nos dara una salida parecida a `/bin/bash`, `/bin/zsh`, `/usr/local/bin/bash`, etc.
 
-2. Copiamos la salida de este comando con `Cmd+C`.
+1. Copiamos la salida de este comando con `Cmd+C`.
 
-3. Ahora vamos a Geany y en la parter superior de la pantalla abrimos
+2. Ahora vamos a Geany y en la parter superior de la pantalla abrimos
 ```
 Edit -> Settings -> Tools
 ```

@@ -87,7 +87,7 @@ wget https://raw.githubusercontent.com/not-al7aro/FisCompSetup/refs/heads/main/f
 wget https://raw.githubusercontent.com/not-al7aro/FisCompSetup/refs/heads/main/files/filetypes.Gnuplot.conf -O ~/.config/geany/filedefs/filetypes.Gnuplot.conf
 ```
 
-Estos comandos instalan una herramienta que perimte descargar arhivos de forma remota 🥡 y los coloca donde deben estar ☝🏼.
+Estos comandos instalan una herramienta que perimte descargar arhivos de forma remota 📡 y los coloca donde deben estar ☝🏼.
 
 ### Configuracion para Fortran 👴🏼
 

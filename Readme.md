@@ -59,10 +59,12 @@ Pero por si acaso podemos ejecutar 🥊:
 
 ```bash
 echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.bash_profile
+export ~/.bash_profile
 ```
 
 ```bash
 echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+export ~/.zshrc
 ```
 
 ## AUN NO HEMOS TERMINADO 🤓

@@ -53,6 +53,8 @@ brew install geany
 > [!WARNING]  
 > Antes de continuar busca Geany en el buscador de MAC 🍎 y abrelo y cierralo, de esta forma se crearan los archivos de configuracion necesarios.
 
+### PATH 👣
+
 En principio los programas se deberian haber añadido al PATH 👣 automaticamente.
 
 Pero por si acaso podemos ejecutar 🥊:

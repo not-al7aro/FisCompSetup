@@ -18,7 +18,7 @@ Homebrew 🍺 ya esta instalado, pero para poder usarlo es necesario agregarlo a
 Al terminal de instalar Homebrew 🍺, se nos muestra un mensaje que nos indica como hacerlo, este mensaje dice algo asi como: 
 ```text
 => Next steps:
-- Run these commands in your terminal to add Homebrew 🍺 to your PATH
+- Run these commands in your terminal to add Homebrew to your PATH
 ```
 Los comandos seran parecidos, **pero no identicos** 😡, a estos:
 ```bash

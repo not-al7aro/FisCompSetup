@@ -51,7 +51,7 @@ brew install geany
 ```
 
 > [!WARNING]  
-> Antes de continuar busca Geany en el buscador de MAC 🍎 y abrelo y cierralo, de esta forma se crearan los archivos de configuracion necesarios.
+> Antes de continuar busca Geany 🧞‍♀️ en el buscador de MAC 🍎 y abrelo y cierralo, de esta forma se crearan los archivos de configuracion necesarios.
 
 ### PATH 👣
 
@@ -74,6 +74,9 @@ export ~/.zshrc
 Por ultimo hace falta configurar Geany 🧞‍♀️ para que pueda compilar programas en Fortran 👴🏼 e interpretar los scripts de Gnuplot 📈.
 
 ### Configuracion para Gnuplot 📈
+
+> [!CAUTION]  
+> Recuerda haber abierto y cerrado Geany 🧞‍♀️ antes de continuar.
 
 Geany 🧞‍♀️ necesita unos archivos de configuracion especificos para poder interpretar los scripts de Gnuplot 📈.
 Para copiarlos en el lugar necesario basta con correr estos tres comandos:

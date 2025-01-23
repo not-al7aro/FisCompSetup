@@ -71,7 +71,7 @@ export ~/.zshrc
 
 Por ultimo hace falta configurar Geany 🧞‍♀️ para que pueda compilar programas en Fortran 👴🏼 e interpretar los scripts de Gnuplot 📈.
 
-### Para los scripts de Gnuplot 📈
+### Configuracion para Gnuplot 📈
 
 Geany 🧞‍♀️ necesita unos archivos de configuracion especificos para poder interpretar los scripts de Gnuplot 📈.
 Para copiarlos en el lugar necesario basta con correr estos tres comandos:
@@ -84,7 +84,7 @@ wget https://raw.githubusercontent.com/not-al7aro/FisCompSetup/refs/heads/main/f
 
 Estos comandos instalan una herramienta que perimte descargar arhivos de forma remota 🥡 y los coloca donde deben estar ☝🏼.
 
-## Para Fortran 👴🏼
+### Configuracion para Fortran 👴🏼
 
 Es posible que Fortran 👴🏼 funcione directamente 😔 sin hacer nada, sin embargo 😎, puede que haya que configurar Geany 🧞‍♀️ para que sepa donde buscar el compilador.
 
